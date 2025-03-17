@@ -1,0 +1,25 @@
+.banner {
+  display: block;
+  padding: 5px;
+  margin: 0;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  cursor: pointer;
+}
+
+.bannerText {
+  position: relative;
+  top: 220px;
+  z-index: 20;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+}
+
+/* Add styles for the button container */
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
